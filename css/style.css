@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*header starts*/
+
+.header{
+    min-height: 60px;
+    background-color:#fff;
+    overflow: hidden;
+}
+
+.logo {
+    width: 35%;
+    float: left;
+}
+
+.logo_image {
+    
+    float: left;
+    margin-top: 10px;
+}
+
+.logo_text {
+   
+    color: #337ab7;
+    padding: 15px;
+    padding-right: 5px;
+}
+
+.nav_bar {
+    width: 55%;
+    float: left;
+    margin-top: 30px;
+}
+.nav_bar ul {
+    list-style: none;
+}
+.nav_bar li{
+    float: right
+    
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: darkblue;
+    padding: 0 25px;
+    font-size: 20px;
+    
+}
+
+.nav_bar ul li a:hover{
+    color: black;
+   
+}
+
+/*header ends*/
+
+/*banner starts*/
+
+.banner{
+    background-image: url(../images/pexels-photo-872957.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    min-height: 400px;
+}
+.text_container{
+   background: rgba(70, 82, 98, 0.65) none repeat scroll 0 0;
+    bottom: 50%;
+    color: #fff;
+    content: "";
+    height: 207px;
+    left: 0;
+    padding: 15px 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 308px;
+    margin-left: 30px;
+    
+}
+.banner_text h1{
+    
+   color: white;
+    font-size:40;
+    
+}
+
+.banner_text button{
+    text-decoration-color: aqua;
+    background-color: brown;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.banner_text button:hover{
+    background-color: white;
+    color: #D35400;
+}
+/*banner ends*/
+
+/*section starts*/
+
+.section {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    min-height: 200px;
+    
+  
+}
+
+.service1 {
+    text-align: center;
+    
+}
+.photos{
+    padding: 5px;
+}
+.service_text p{
+     font-size: 20px;
+    font-weight: normal;
+}
+.service_text button{
+  background: #456284;
+    color: #ffffff;
+    border: none;
+    width: 65px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+/*section ends*/
+
+/*footer starts*/
+
+
+    
+.foot1{
+   text-align: center;
+    min-height: 400px;
+    
+}
+
+.footer_text p{
+    color: #456284;
+    font-size: 11px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+/*footer ends*/
